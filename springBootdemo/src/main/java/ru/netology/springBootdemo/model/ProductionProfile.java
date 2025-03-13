@@ -1,6 +1,6 @@
-package ru.netology.springBootdemo;
+package ru.netology.springBootdemo.model;
 
-public class ProductionProfile implements SystemProfile{
+public class ProductionProfile implements SystemProfile {
     @Override
     public String getProfile() {
         return "Current profile is production";

@@ -3,9 +3,9 @@ package ru.netology.springBootdemo.config;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import ru.netology.springBootdemo.DevProfile;
-import ru.netology.springBootdemo.ProductionProfile;
-import ru.netology.springBootdemo.SystemProfile;
+import ru.netology.springBootdemo.model.DevProfile;
+import ru.netology.springBootdemo.model.ProductionProfile;
+import ru.netology.springBootdemo.model.SystemProfile;
 
 @Configuration
 public class JavaConfig {

@@ -1,6 +1,6 @@
-package ru.netology.springBootdemo;
+package ru.netology.springBootdemo.model;
 
-public class DevProfile implements SystemProfile{
+public class DevProfile implements SystemProfile {
     @Override
     public String getProfile() {
         return "Current profile is dev";
